@@ -127,7 +127,7 @@ background-color: var(--fundo-barra);
     bottom: 30px;
 }
 .fraca{
-    background-attachment: red;
+    background-color: red;
     width: 50%;
 }
 .media{
@@ -137,6 +137,11 @@ background-color: var(--fundo-barra);
 .forte{
     background-color: rgb(11, 248, 11);
     width: 100%;
+}
+
+.parametro-senha__textos{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {

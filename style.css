@@ -121,6 +121,23 @@ label{
     width: 100%;
 background-color: var(--fundo-barra);
 }
+.força{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    background-attachment: red;
+    width: 50%;
+}
+.media{
+    background-color: yellow;
+    width: 50%;
+}
+.forte{
+    background-color: rgb(11, 248, 11);
+    width: 100%;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
